@@ -1,0 +1,79 @@
+body {
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+h1 {
+    font-family: "Al Tarikh", fantasy;
+    margin: 20px;
+    font-size: 45px;
+    flex-direction: row;
+
+}
+
+
+input {
+    width: 50%;
+    height: 42px;
+    margin-left:20%;
+}
+
+
+button {
+    height: 42px;
+    width: 60px;
+    background: darkblue;
+    cursor: pointer;
+    color: white;
+}
+
+
+button:before {
+    font-family: "Al Tarikh", fantasy;
+    font-size: 25px;
+}
+
+
+.box {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
+    width: 50%;
+    margin: 40px auto auto;
+    font-family: "Al Tarikh", cursive;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+#btx {
+    width: 80%;
+    margin: auto;
+}
+
+
+img {
+margin-top:10px;
+}
+
+
+
+/* nog niet af */
+@media only screen and( max-width:786px ) {
+    body {
+        background-color: skyblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    h1{
+        margin-top: 55px;
+    }
+}
