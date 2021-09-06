@@ -1,7 +1,7 @@
 // stappenplan
 // 1. maak de zoek-knop en -veld in HTML
 // 2. maak een functie die verwijst naar de rest countries uri
-// 3.
+
 const dataFetchButton = document.getElementById( "special-button" )
 dataFetchButton.addEventListener( "click", fetchData )
 
