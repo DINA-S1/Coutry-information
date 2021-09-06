@@ -22,14 +22,14 @@ async function fetchData() {
         console.log(currencies)
         console.log(languages)
 
-        document.getElementById("text").innerHTML = '<img height="100px" src="' + result.data[0].flag + '"/><br>' + result.data[0].name + " is situated in " + result.data[0].subregion + "." + "<br>" + "It has a population of  " + result.data[0].population + "  people." +  "<br>" + " The capital is " + result.data[0].capital +"" + currencies + "<br>" +  languages + "."
+        document.getElementById("text").innerHTML = '<img height="100px" src="' + result.data[0].flag + '"/><br>' +  '</h3>' + result.data[0].name + '</h3>' + " is situated in " + result.data[0].subregion + "." + "<br>" + "It has a population of  " + result.data[0].population + "  people." +  "<br>" + " The capital is " + result.data[0].capital + "" + currencies + "<br>" +  languages + "."
         // veld leg
         document.getElementById( "query" ).value = ''
 
 
      } catch( error ) {
         console.log( 'The country does not exist!' )
-
+         // in html
         document.getElementById( "text" ).innerHTML = 'The country does not exist!'
 
             console.error( error )
