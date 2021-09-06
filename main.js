@@ -1,7 +1,7 @@
 // stappenplan
 // 1. maak de zoek-knop en -veld in HTML
 // 2. maak een functie die verwijst naar de rest countries uri
-// 3.
+
 const dataFetchButton = document.getElementById( "special-button" )
 dataFetchButton.addEventListener( "click", fetchData )
 
@@ -27,12 +27,12 @@ async function fetchData() {
         document.getElementById( "query" ).value = ''
 
 
-     } catch( error ) {
+    } catch( error ) {
         console.log( 'The country does not exist!' )
-         // in html
+        // in html
         document.getElementById( "text" ).innerHTML = 'The country does not exist!'
 
-            console.error( error )
+        console.error( error )
     }
 }
 
