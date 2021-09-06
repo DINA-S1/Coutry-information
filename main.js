@@ -27,12 +27,12 @@ async function fetchData() {
         document.getElementById( "query" ).value = ''
 
 
-     } catch( error ) {
+    } catch( error ) {
         console.log( 'The country does not exist!' )
-         // in html
+        // in html
         document.getElementById( "text" ).innerHTML = 'The country does not exist!'
 
-            console.error( error )
+        console.error( error )
     }
 }
 
